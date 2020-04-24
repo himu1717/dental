@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 40px 0px;
+}
+.logo{
+
+width: 22%;
+
+margin: auto;
+}
+.logo img{
+
+}
+nav{
+
+display: flex;
+
+width: 40%;
+
+}
+nav ul {
+
+display: flex;
+}
+nav ul i{
+
+display: inline-block;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+padding: 0px 10px;
+
+font-size: 26px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+}
+.contact li{
+
+list-style: none;
+}
+.contact li h4{
+
+}
+.contact li p{
+    
+margin-top: -2px;
+}
+.header1{
+
+background: #00cce1;
+
+display: flex;
+
+height: 82px;
+}
+.header1 .header_icon{
+
+margin: auto;
+
+display: flex;
+
+width: 15%;
+
+
+}
+.header1 .header_icon li{
+
+list-style: none;
+
+padding: 16px;
+}
+.header1 .header_icon li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+}
+.appointment{
+    
+width: 12%;
+    
+margin: auto;
+}
+.appointment li{
+
+list-style: none;
+
+
+
+margin: 30px;
+
+width: 60%;
+}
+.appointment li a{
+
+text-transform: uppercase;
+
+text-decoration: none;
+}
+.banner{background-image: url(../image/bg-image-1.png);background-repeat: no-repeat;min-height: 68vh;background-position: center;background-size: cover;display: flex;justify-content: space-between;}
+.banner-content h3{
+    font-family: 'Roboto', sans-serif;
+font-size: 29px;
+
+font-weight: 400;
+
+padding: 10px 52px;
+
+background: #00cce1;
+
+text-transform: uppercase;
+}
+.banner-content h1{
+    
+font-size: 42px;
+    
+font-weight: 400;
+    
+padding: 2px 0px;
+    
+background: #f69165;
+    
+text-transform: uppercase;
+    
+margin: 17px 0px;
+font-family: 'Roboto', sans-serif;
+}
+.banner-content p{
+    
+margin: 4%;
+}
+.banner-content input{
+    
+border: none;
+    
+background: #00cce17d;
+    
+border: 1px solid #15a4fa;
+    
+padding: 10px 29px;
+    
+text-transform: capitalize;
+    
+color:#ffffff;
+font-family: 'Roboto', sans-serif;
+    }
+    .banner-content input:hover{
+        background-color:#15a4fa ;
+}
+.banner-content{
+    
+/* display: inline-block; */
+    
+text-align: center;
+    
+width: 33%;
+    
+margin: auto;
+    
+padding-left: 270px;
+}
+.banner-image{
+
+width: 41%;
+
+margin: auto;
+}
+.banner-image img{
+    
+width: 100%;
+}
